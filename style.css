@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 400px;
+    height: fit-content;
+    background-color: rgba(205, 214, 219, 0.3);
+    padding: 15px 25px 15px 25px;
+    margin: 20px;
+    border: rgba(0, 0, 0, 0.6);;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subject {
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
